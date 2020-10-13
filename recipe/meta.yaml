@@ -1,6 +1,6 @@
 {% set name = "pymt_prms_streamflow" %}
-{% set version = "0.1" %}
-{% set build_number = "2" %}
+{% set version = "0.2.0" %}
+{% set build_number = "0" %}
 
 package:
   name: {{ name }}
@@ -16,19 +16,20 @@ build:
 
 requirements:
   build:
-    - {{ compiler('c') }}
     - {{ compiler('fortran') }}
+    - libnetcdf
+    - netcdf-fortran
   host:
     - python
-    - pip
     - cython
     - numpy >=1.14
-    - model_metadata
+    - bmi-fortran
     - prms
     - prms_streamflow
   run:
     - python
     - {{ pin_compatible('numpy') }}
+    - bmi-fortran
     - prms
     - prms_streamflow
 
