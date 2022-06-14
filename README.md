@@ -1,6 +1,7 @@
 [![Anaconda-Server Badge](https://anaconda.org/csdms-stack/pymt_prms_streamflow/badges/version.svg)](https://anaconda.org/csdms-stack/pymt_prms_streamflow)
 [![Anaconda-Server Badge](https://anaconda.org/csdms-stack/pymt_prms_streamflow/badges/platforms.svg)](https://anaconda.org/csdms-stack/pymt_prms_streamflow)
 [![Anaconda-Server Badge](https://anaconda.org/csdms-stack/pymt_prms_streamflow/badges/downloads.svg)](https://anaconda.org/csdms-stack/pymt_prms_streamflow)
+[![Build](https://github.com/csdms-stack/pymt_prms_streamflow-recipe/actions/workflows/build.yml/badge.svg)](https://github.com/csdms-stack/pymt_prms_streamflow-recipe/actions/workflows/build.yml)
 
 # pymt_prms_streamflow-recipe
 
